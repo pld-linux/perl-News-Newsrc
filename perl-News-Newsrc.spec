@@ -27,7 +27,7 @@ News::Newsrc zarz±dza plikami newsrc.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
