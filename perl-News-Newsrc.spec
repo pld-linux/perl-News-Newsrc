@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	News
 %define	pnam	Newsrc
-%include	/usr/lib/rpm/macros.perl
 Summary:	News-Newsrc perl module
 Summary(pl):	Modu³ perla News-Newsrc
 Name:		perl-News-Newsrc
 Version:	1.08
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ News-Newsrc manages newsrc files.
 News-Newsrc zarz±dza plikami newsrc.
 
 %prep
-%setup -q -n News-Newsrc-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
