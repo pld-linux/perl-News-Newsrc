@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla News-Newsrc
 Name:		perl-News-Newsrc
 Version:	1.07
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/News/News-Newsrc-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/News/News-Newsrc-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-Set-IntSpan
@@ -16,7 +16,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-News-Newsrc manages newsrc files. 
+News-Newsrc manages newsrc files.
 
 %description -l pl
 News-Newsrc zarz±dza plikami newsrc.
