@@ -3,13 +3,13 @@ Summary:	News-Newsrc perl module
 Summary(pl):	Modu³ perla News-Newsrc
 Name:		perl-News-Newsrc
 Version:	1.07
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/News/News-Newsrc-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.005_03-14
+BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Set-IntSpan
 %requires_eq	perl
 Requires:	%{perl_sitearch}
@@ -32,14 +32,7 @@ perl Makefile.PL
 rm -rf $RPM_BUILD_ROOT
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-(
-  cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/News/Newsrc
-  sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
-)
-
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
-        Changes README
+gzip -9nf Changes README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
