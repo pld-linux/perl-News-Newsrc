@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	News
 %define	pnam	Newsrc
-Summary:	News-Newsrc perl module
-Summary(pl):	Modu³ perla News-Newsrc
+Summary:	News::Newsrc perl module
+Summary(pl):	Modu³ perla News::Newsrc
 Name:		perl-News-Newsrc
 Version:	1.08
 Release:	5
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-News-Newsrc manages newsrc files.
+News::Newsrc manages newsrc files.
 
 %description -l pl
-News-Newsrc zarz±dza plikami newsrc.
+News::Newsrc zarz±dza plikami newsrc.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
