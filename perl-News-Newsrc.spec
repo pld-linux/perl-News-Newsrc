@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	News
-%define	pnam	Newsrc
+%define		pdir	News
+%define		pnam	Newsrc
 Summary:	News::Newsrc perl module
 Summary(pl):	Modu³ perla News::Newsrc
 Name:		perl-News-Newsrc
