@@ -3,7 +3,7 @@ Summary:	News-Newsrc perl module
 Summary(pl):	Modu³ perla News-Newsrc
 Name:		perl-News-Newsrc
 Version:	1.08
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
