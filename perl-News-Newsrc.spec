@@ -6,7 +6,7 @@
 %define		pdir	News
 %define		pnam	Newsrc
 Summary:	News::Newsrc perl module
-Summary(pl):	Modu³ perla News::Newsrc
+Summary(pl.UTF-8):   ModuÅ‚ perla News::Newsrc
 Name:		perl-News-Newsrc
 Version:	1.08
 Release:	8
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 News::Newsrc manages newsrc files.
 
-%description -l pl
-News::Newsrc zarz±dza plikami newsrc.
+%description -l pl.UTF-8
+News::Newsrc zarzÄ…dza plikami newsrc.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
