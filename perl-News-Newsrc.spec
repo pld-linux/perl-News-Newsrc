@@ -6,7 +6,7 @@
 %define		pdir	News
 %define		pnam	Newsrc
 Summary:	News::Newsrc perl module
-Summary(pl.UTF-8):   Moduł perla News::Newsrc
+Summary(pl.UTF-8):	Moduł perla News::Newsrc
 Name:		perl-News-Newsrc
 Version:	1.08
 Release:	8
