@@ -8,13 +8,13 @@
 Summary:	News::Newsrc perl module
 Summary(pl.UTF-8):	Moduł perla News::Newsrc
 Name:		perl-News-Newsrc
-Version:	1.08
-Release:	8
+Version:	1.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	cd874f7ba91bbb64f3f0f75f2d37893a
+# Source0-md5:	224d0cc957d67313afc1edcb56eecb28
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Set-IntSpan
