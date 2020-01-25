@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	News
 %define		pnam	Newsrc
 Summary:	News::Newsrc - Perl module to manage newsrc files
